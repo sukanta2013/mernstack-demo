@@ -1,0 +1,24 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "This is a demo api project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sukanta",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
